@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/FoodDescription_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Food Description"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/FoodCount_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Food Count"
+        android:textStyle="bold"
+        android:padding="20dp"
+
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/UnitCost_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="Unit Cost"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="Location: "
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textSize="20dp"
+            ></TextView>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Location_editText"
+            android:layout_weight="1"
+
+            android:tag="Add"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/bestBefore_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+
+        android:justificationMode="inter_word"
+        android:padding="10dp"
+        android:text="Best before Date"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

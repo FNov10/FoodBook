@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mnaveed1-FoodBook</string>
+
+    <string-array name="loctions">
+        <item>Pantry</item>
+        <item>Freezer</item>
+        <item>Fridge</item>
+    </string-array>
+</resources>

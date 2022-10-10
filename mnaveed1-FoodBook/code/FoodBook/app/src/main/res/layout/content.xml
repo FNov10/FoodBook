@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+
+
+    >
+
+
+        <TextView
+            android:id="@+id/UnitCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:textSize="15sp"
+
+
+            android:text="Unit Cost" />
+
+
+        <TextView
+            android:id="@+id/FoodName"
+            android:textStyle="bold"
+
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:justificationMode="none"
+            android:padding="10dp"
+            android:text="Name"
+            android:textSize="15sp" />
+
+
+
+
+        <TextView
+
+            android:id="@+id/FoodCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:padding="10dp"
+            android:textSize="15sp"
+
+
+            android:text="Count" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

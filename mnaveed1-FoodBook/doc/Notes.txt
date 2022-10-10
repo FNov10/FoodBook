@@ -1,0 +1,13 @@
+MainActivity: Main Activity of the program. This activity launches the app and allows new food to be added , edited, or removed using the respective dialog boxes
+
+
+AddFoodFragment: This is a custom dialog fragment that allows the end user to add a food object and store it in the list.
+EditFoodFragment: This is a custom dialog fragment that allows the end user to add a food object and store it in the list.
+
+
+Food: Class has entry specifications for the food objects along with getters, setters and methods to calculate total cost the food objects.
+
+
+CustomList: Custom ArrayAdapter for storing objects of class Food in the listView
+
+OnFragmentInteractionListener: Interface which describes what should be done when the user presses ok on the dialog fragment(Adds to food object)
